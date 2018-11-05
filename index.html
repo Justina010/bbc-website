@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head> <title>BBC Practice</title></head>
+     <style type="text/css">
+    
+     #Topbar{
+            
+            width:1000px;
+            margin:0 auto;
+            height:30px;
+            
+        }
+        
+        body{
+            
+            margin:0;
+            padding:0;
+            font-family: Helvetica,Arial,sans-serif;
+        }
+        
+        
+        #bbcLogo {
+            margin:5px 10px 0px -150px;
+             float:left;
+        }
+        
+        .topbar-section{
+            
+               border-left:1px grey solid;
+               float: left;
+               height:100%;
+               margin-left:4px;
+        }
+        
+        #Signing {
+            
+                 margin:8px 6px;
+              }
+        
+        #navBar a {
+            text-decoration: none;
+            color:black;
+            padding-top:5px;
+            border-right:1px grey solid;
+            
+            
+            
+        }
+    
+        li{
+            list-style-type:none;
+            display:inline;
+            
+        }
+        
+        #group{
+            
+           margin-right:40px;
+           position:relative;
+           font-weight: bold;
+           font-size:96%;
+            bottom:17px;
+           
+            
+        }
+        
+        .topbar-menu{
+            
+            font-weight: bold;
+            font-size:90%;
+            padding:15px 2px 0 10px;
+            height: 15px;
+            
+               
+            
+        }
+        
+        #more-arrow{
+            
+            margin-left:23px;
+            margin-top:14px;
+            
+        }
+        
+        #search-box{
+            
+        background-color: #E4E4E4;
+        border:none;  
+        font-weight:bold;
+        padding:4px;
+        margin:5px 0 5px 5px;
+        float:left;    
+       
+        }
+        
+        #magnifying-glass{
+            
+            height:25px;
+            margin-top:5px;
+        }
+        
+        .clear{
+            
+            clear:both;
+        }
+     
+        
+        #menu-bar-container{
+            border-top:1px solid #CCCCCC;
+            background-color:#bb1919;
+            width:100%;
+            height:90px;
+        }
+        
+        #menu-bar{
+            
+             width:1000px;
+            margin:0 auto;
+        }
+        
+        h1{
+            
+            padding:0;
+            margin:5px 10px 0px -150px;
+            color:white;
+            font-size:40px;
+            font-weight: normal;
+            padding-top:10px;
+        
+        }
+        
+/*
+        #menu-bar2-container{
+            background-color:#A91717;
+            width:100%;
+*/
+            
+        }
+        
+        #menu-bar2{
+            
+            width:1000px;
+            margin:0;
+            height:30px;
+            
+        }
+        
+        #menu-bar2 a{
+            color:white;
+            text-decoration:none;
+            margin:4px 10px 0 10px;
+            border-right:1px solid grey;
+            height:100%;
+            font-size:14px;
+            
+            
+            
+        }
+        
+        #menu-bar2 a:hover{
+            
+            text-decoration:underline;
+        }
+        
+        .no-border{
+            
+            border:none !important;
+        }
+        
+        #droparrow{
+            
+            height:20px;
+            position:relative;
+            top:8px;
+         }
+        
+        #page-container{
+            
+            width:1000px;
+            margin:0 auto;
+        }
+/*
+        
+        h2{
+        
+        border-bottom:2px solid #a91717;
+            width:100px;
+        }
+*/
+        
+        h2{
+            width:270px;
+            margin:10px 10px 0 -150px;
+            padding:2px;
+            font-weight:bold;
+            font-size:20px;
+        }
+        
+        h2 a{
+            color:black;
+            font-size:29px;
+           text-decoration:none;
+             
+        }
+        
+        h2 a:hover{
+            color:#1167a3;
+            
+        }
+        
+        #article-summary {
+            color:#5a5a5a;
+            margin:2px 10px 0px -150px;
+            width:240px;
+            float:left;
+            
+        }
+        
+        #article-summary img{
+            position:relative;
+            top:7px;
+            
+        }
+        
+        #article-summary a{
+            color:#222;
+            text-decoration:none;
+            border-left:1px solid grey;
+            font-size:13px;
+            font-weight: normal;
+            padding-left:4px;
+        } 
+        
+        #article-summary a:hover{
+            color:#1167a3;
+        }
+        
+        #time{
+            font-size: 14px;
+        }
+        
+        #article-container{
+            float:left;
+            width:650px;
+                
+        }
+        
+        #solider-image{
+            width:500px;
+            position:relative;
+            bottom:70px;
+            margin-left:20px;
+        }
+        
+        #left-arrow{
+            position:relative;
+            top:77px;
+            
+        }
+        
+        #left-arrow a{
+            font-weight:bold;
+        }
+        
+        #arab-image{
+            position:relative;
+            top:10px;
+        }
+        
+        #clock{
+            margin-bottom:-8px;
+            
+        }
+        #left-page{
+            color:#5a5a5a;
+            font-weight: normal;
+            padding-left:4px;
+        }
+        
+        #left-page a{
+            color:#222;
+            text-decoration:none;
+            border-left:1px solid grey;
+            font-size:13px;
+            font-weight: normal;
+            padding-left:4px;
+        }
+        
+        #left-page a:hover{
+            color:#1167a3;
+        }
+        
+        #saudi{
+            color:black;
+            font-size:19px;
+            font-weight:bold;
+            float:left;
+            width:300px;
+            }
+        #left-article{
+           margin:17px;
+            font-weight: normal;
+            padding-left:4px;
+            width:870px;
+            
+        }
+        
+        #hour{
+            font-size: 14px;
+            margin-top:25px;
+            padding-right:4px;
+        }
+    
+    
+    
+    
+    
+    </style>
+    
+    
+    
+     <body>
+          <div id="Topbar">
+        <img src ="images/Capture.PNG" id="bbcLogo">
+           
+        <div id="sing" class="topbar-section">
+            
+        <img src ="images/login%20sign.PNG" id="Signing"> <span id="group"href="bbc-id">BBC iD</span>
+            
+        </div> 
+              
+        <div class="topbar-section topbar-menu">
+            
+           Home 
+              
+        </div>   
+              
+        <div class="topbar-section topbar-menu">
+            
+            News
+            
+        </div>
+              
+        <div class="topbar-section topbar-menu">
+            
+            Sport  
+        
+        </div> 
+              
+        <div class="topbar-section topbar-menu">
+              
+              Weather
+        </div>   
+              
+              
+        <div class="topbar-section topbar-menu">
+              
+               Shop
+        </div>  
+              
+        <div class="topbar-section topbar-menu">
+            
+              Reel
+        </div> 
+              
+        <div class="topbar-section topbar-menu">
+              
+              Travel
+        </div>      
+         
+       <div class="topbar-section topbar-menu">
+              
+           Capital   
+       </div>
+              
+        <div class="topbar-section topbar-menu">
+              
+              More
+        </div>
+              
+        <div>
+            
+    <img src = "images/arrow.PNG" id="more-arrow">
+              
+        </div>  
+              
+        <div class="topbar-section" >
+
+      <input id="search-box"type="text" value="Search">
+      <input type="image"id="magnifying-glass"src="images/magnifying%20glass.PNG">        
+<!--         to make your magnifying glass clickable change the image to input as above     -->
+        </div>      
+         
+        
+          </div>
+         
+         <div class="clear"></div>
+         
+         <div id="menu-bar-container">
+         
+         <div id="menu-bar">
+             
+             <h1>NEWS</h1>
+             
+         </div>
+         
+        <div id="menu-bar2-container">
+            
+        <div id="menu-bar2">
+                
+            <a href="#">Home</a> 
+            
+            <a href="#">Video</a> 
+                
+            <a href="#">World</a> 
+                
+            <a href="#">UK</a> 
+                
+            <a href="#">Business</a> 
+                
+            <a href="#">Tech</a> 
+                
+            <a href="#">Science</a> 
+                
+            <a href="#">Stories</a> 
+                
+            <a href="#">Entertainment & Arts</a> 
+                
+            <a href="#">Health</a> 
+                
+            <a href="#">World News TV</a> 
+                
+            <a href="#">In Pictures</a> 
+                
+            <a href="#">Reality Check</a> 
+                
+            <a href="#">Newsbeat</a> 
+                
+        <a href="#" class="no-border">More</a>     
+ <img src="images/droparrow.PNG" id="droparrow">  
+            
+        </div>
+             
+        </div>     
+             
+    </div>
+         
+         <div class="clear"></div>
+         
+         <div id="page-container">
+         
+         <div id="main-article">
+             
+
+    <div id="article-container">
+             <h2><a href="">Multiple casualities at US synagogue </a>            </h2> 
+             
+             <div id="article-summary">
+            <p> It is unclear how many people were killed or injured but police say the gunman is now in custody.</p>
+                 
+            <p><img src="images/timer.PNG" ><span id="time">1m </span><a href ="">US & Canada</a></p>   
+                 
+          <p id="left-arrow"><img src="images/leftarrow.PNG" ><a href="">'Multiple casualities'at synagogue</a></p>     
+         
+         </div>
+             
+               <img src="images/soldier%20pics.PNG" id="solider-image">  
+         </div>
+             
+        </div>
+             
+             <div id="left-page">
+                 <img src="images/arab.PNG" id="arab-image"><br>
+                 <p id="saudi">Saudi say they will try Khashoggi suspects</p>
+                 <p id="left-article">The foreign minister says those responsible for the killing will be held accountable in Saudi Arabia.</p>
+                 <img src="images/timer.PNG" id="clock">
+                 <span id="hour">3h</span><a href ="">US & Canada</a>   
+             
+             
+             </div>
+             
+        </div>     
+    
+         
+    
+    </body>
+    
+
+
+
+
+</html>
